@@ -8,7 +8,22 @@
 </head>
 <body>
 
-<%= yield %>
+	<div class="navbar navbar-expand-lg navbar-light navbar-dark bg-primary">
+		<div class="container">
+			<a href="#" class="navbar-brand">WaifBook</a>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+					        <a class="nav-link" href="<%=statuses_path%>">Status</a>
+					    </li>
+					</ul>
+				</div>
+		</div>
+	</div>
+
+	<div class="Bajada container">
+		<%= yield %>
+	</div>
 
 </body>
 </html>
